@@ -1,0 +1,115 @@
+.all_cover {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+   
+}
+
+
+.login_main {
+    display:flex;
+    position: relative;
+    top: 7%;
+    left: 17%;
+    background-color: rgb(200, 224, 233);
+    width: 65vw;
+    height:11.37cm;
+    border-radius:5px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.login_form {
+   width: 30vw;
+   height:429px;
+   z-index: 101;
+   background-color: white; 
+   position:absolute;
+   left:33.3vw;
+   padding: 0px 20px 0px 50px;
+   border-radius: 7px;
+}
+
+.login_form1 {
+  width: 30vw;
+  height:529px;
+  z-index: 101;
+  background-color: white; 
+  position:absolute;
+  left:33.3vw;
+  padding: 0px 20px 0px 50px;
+  border-radius: 7px;
+}
+
+.control_filed {
+  padding: 0px 0px 0px 15px;
+  height: 45px;
+  width: 25vw;
+  border-radius: 40px;
+  border: 1px solid lightgray;
+  margin-bottom:25px;
+}
+
+
+
+.control_filed:focus {
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(102, 175, 233, 0.6) 0px 0px 8px;
+  border-color: rgb(62, 143, 209); 
+  
+  outline: 0px;
+}
+
+.control_filed:hover {
+  border-color: rgb(123, 178, 221);
+}
+
+
+.login_form_btn {
+  padding: 0px 5px 0px 5px;
+  height: 45px;
+  width: 25vw;
+  border-radius: 40px;
+  border:none;
+  background-color:#2555e4;
+  margin-bottom:10px;
+  color:white;
+  opacity: 0.7;
+  cursor: pointer;
+  // background-color:#2E59D9;
+}
+
+
+.login_title {
+    color: #858796;
+    font-weight: 400;
+    font-size:30px;
+    text-align: center;
+    margin-top: 0;
+    padding:1cm;
+    margin-left: 0px;
+    position: relative;
+    top: 0.5cm;
+}
+
+
+
+
+.topnav {
+  position:relative;
+  height: 3rem;
+  width: 100%;
+  margin-bottom: 1.5rem !important;
+  // overflow: hidden;
+  // overflow-y: hidden;
+  background-color:white;
+  box-shadow:0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+
+  .MuiSvgIcon-root{
+    margin-top: 0px !important;
+  }
+}
